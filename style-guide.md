@@ -15,9 +15,13 @@ The designs were created to the following widths:
 
 - Stone 100: hsl(30, 54%, 90%)
 - Stone 150: hsl(30, 18%, 87%)
+
+** Color of all smaller text **
 - Stone 600: hsl(30, 10%, 34%)
+
 - Stone 900: hsl(24, 5%, 18%)
 
+** Color of heading text **
 - Brown 800: hsl(14, 45%, 36%)
 
 - Rose 800: hsl(332, 51%, 32%)

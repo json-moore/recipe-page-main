@@ -1,32 +1,37 @@
-/* Adding responsive styling to image and main font styling */
+/* image styling */
 img {
     max-width: 100%;
     height: auto;
     border-radius: 1rem;
 }
 
-.heading__text {
+/* Header styling */
+.heading__text h2 {
     font-family: "Young Serif", serif;
     font-weight: 400;
-    font-style: normal;   
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
 }
-
 .heading__text h1 {
     font-size: 35px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-body {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+/* Text styling */
+.generaltext__container {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(30, 10%, 34%);
 }
-/* End of image and main font styling */
 
+/* Prep container styling */
 .prep__container h3 {
     color: hsl(332, 51%, 32%);
 }
-
 .prep__container {
     background-color: hsl(330, 100%, 98%);
     border-radius: 1rem;
@@ -34,17 +39,45 @@ body {
     margin-top: 30px;
     margin-bottom: 30px;
     padding-left: 30px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
-
 .prep__container ul li {
     padding: 7px;
 }
 
+/* Line styles */
+hr {
+    opacity: 40%;
+    width: 95%;
+}
+
+/* List styles */
+.ol__container ol li {
+    padding: 6px;
+    padding-left: 15px;
+}
+.ol__container ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+.ul__container ul li {
+    padding: 6px;
+    list-style-type: square;
+    padding-left: 15px;
+}
+.ul__container ul li::marker {
+    color: hsl(14, 45%, 36%);
+}
 
 
-
-
-#td__name {
-    padding-right: 150px;
-    padding-left: 50px;
+/* Table styling */
+#td__descrp {
+    color: hsl(14, 45%, 36%);
+}
+.table__container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
